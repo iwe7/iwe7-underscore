@@ -281,4 +281,4 @@ export class AppModule { }
 ### 总结
 本文介绍了 Angular 自定义管道pipe的方法，并发布到npm, 方便使用及管理。
 
-项目地址： https://github.com/meepobrother/meepo-underscore.git
+[项目地址](https://github.com/iwe7/iwe7-underscore.git)
