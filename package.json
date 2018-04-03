@@ -1,0 +1,25 @@
+{
+    "name": "iwe7-underscore",
+    "version": "2.0.2",
+    "repository": "https://github.com/iwe7/iwe7-underscore.git",
+    "author": "imeepos <1037483576@qq.com>",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "git": "git add . && git commit -m 'push to save' && git push origin master"
+    },
+    "peerDependencies": {
+        "@angular/core": "*",
+        "@angular/common": "*",
+        "rxjs": "*",
+        "underscore": "*"
+    },
+    "ngPackage": {
+        "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+        "dest": "../../../iwe7/underscore",
+        "workingDirectory": "./.ng_build",
+        "lib": {
+            "entryFile": "./src/public_api.ts"
+        }
+    }
+}
